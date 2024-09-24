@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+    <nav class="nav-bar" role="navigation"  aria-label="Main Navigation" >
+
+        <div class="menu-toggle"
+         onclick="toggleMenu()" 
+        aria-controls="menu" 
+        aria-expanded="false" 
+        aria-label="Toggle Navigation">
+        
+                    &#9776;
+        </div>
+
+        <ul id="nav-list" role="menu">
+          <li role="none"> <a href="#" role="menuitem">Home</a></li>
+          <li role="none"> <a href="#" role="menuitem">About</a></li>
+          <li role="none"> <a href="#" role="menuitem">Services</a></li>
+          <li role="none"> <a href="#" role="menuitem">Contact Us</a></li>
+
+
+       </ul>
+    </nav>
+
+    <div class="hero-image">
+        <img src="grass.png" alt="grass pic">
+        <div class="hero-text">
+          <h1>Welcome to iCarly</h1>
+          <p>This series will make you glued to your screen and laugh so hard. Enjoy!</p>
+          <button>Get Started</button>
+        </div>
+      </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
